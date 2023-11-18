@@ -1,0 +1,1 @@
+repeats 80, vectors 16, lr 5e-4

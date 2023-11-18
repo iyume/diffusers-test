@@ -1,0 +1,16 @@
+python dreambooth_lora.py \
+  --pretrained_model_name_or_path "stablediffusionapi/anything-v5"  \
+  --instance_data_dir "gotou_hitori_images" \
+  --instance_prompt "gotou_hitori" \
+  --resolution 512 \
+  --train_batch_size 1 \
+  --gradient_accumulation_steps 1 \
+  --checkpointing_steps 100 \
+  --learning_rate 1e-4 \
+  --lr_scheduler "constant" \
+  --lr_warmup_steps 0 \
+  --max_train_steps 2000 \
+  --validation_prompt "cube hair ornament, blue eyes, pink long hair, pink track jacket, bangs, hair between eyes" \
+  --validation_epochs 10 \
+  --rank 30 \
+  --resume_from_checkpoint latest
