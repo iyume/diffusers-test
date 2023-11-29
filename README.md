@@ -2,12 +2,4 @@
 
 Stable diffusion learning and testings.
 
-## t
-
-### t
-
-#### t
-
-##### t
-
-###### t
+更多的介绍请见这篇文章：https://blog.tinyume.com/2023/stable-diffusion-tips/
